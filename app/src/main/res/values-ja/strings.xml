@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Archwilio</string>
+    <string name="action_delete">削除</string>
+
+    <!-- Activity and fragment names -->
+    <string name="title_activity_add_trip">旅を追加する</string>
+    <string name="title_activity_add_attraction">観光スポットを追加する</string>
+    <string name="title_activity_add_hotel">ホテルを追加する</string>
+    <string name="title_activity_add_transport">交通機関を追加する</string>
+    <string name="title_activity_edit_trip">旅を編集する</string>
+    <string name="title_activity_edit_attraction">観光スポットを編集する</string>
+    <string name="title_activity_edit_hotel">ホテルを編集する</string>
+    <string name="title_activity_edit_transport">交通機関を編集する</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_itinerary">旅程</string>
+    <string name="title_home_fragment">ホーム</string>
+    <string name="title_deleted_trip_fragment">旅を削除する</string>
+    <string name="title_profile_fragment">プロフィール</string>
+    <string name="title_about">情報</string>
+
+    <string name="title_note">ノート</string>
+    <string name="title_sign_out">サインアウト</string>
+
+    <string name="content_description">Image</string>
+    <string name="default_name">ここにいるよ</string>
+    <string name="to">に</string>
+
+    <string name="saved_successfully">保存</string>
+    <string name="moved_to_trash">Moved to trash</string>
+    <string name="permanently_deleted">Permanently Deleted</string>
+    <string name="restored">Restored</string>
+    <string name="uploaded_successfully">正常にアップロードされました</string>
+    <string name="downloaded_successfully">正常にダウンロードされました</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_header_default_name">Jon Snow</string>
+    <string name="navigation_header_default_email">jon.snow@gmail.com</string>
+
+    <!-- Tutorial Activity -->
+    <string-array name="tutorial_messages">
+        <item>Manage your itinerary effortlessly</item>
+        <item>Offline itinerary</item>
+        <item>Backup your itinerary on the cloud</item>
+    </string-array>
+    <string name="get_started">始めます</string>
+
+    <!-- Add Trip -->
+    <string name="title_title">タイトル</string>
+    <string name="title_destinations">目的地</string>
+    <string name="title_start_date">開始日</string>
+    <string name="title_end_date">終了日</string>
+    <string name="title_save">セーブ</string>
+    <string name="title_trip_default_prefix">Trip to</string>
+
+    <!-- Add Attraction -->
+    <string name="title_search_attraction">スポットを探す</string>
+    <string name="title_duration">期間</string>
+    <string name="hour">時間</string>
+    <string name="default_duration_value">1時間</string>
+
+    <!-- Add Hotel -->
+    <string name="title_hotel_name">ホテル名</string>
+    <string name="title_address">住所</string>
+    <string name="title_check_in">チェックイン</string>
+    <string name="title_check_out">チェックアウト</string>
+    <string name="title_number_of_guests">ゲスト</string>
+    <string name="title_total_price">合計金額</string>
+    <string name="search_hotel_hint">ホテルを探す</string>
+    <string name="minus">-</string>
+
+    <!-- Add Transport -->
+    <string name="title_travel_mode">旅行モード</string>
+    <string name="title_departure">出発</string>
+    <string name="title_arrival">到着</string>
+    <string name="hint_where_do_you_travel_from">どこから来ましたか</string>
+    <string name="hint_where_do_you_travel_to">どこへ行きますか</string>
+    <string name="title_information">情報</string>
+    <string name="title_reference_code">リファレンスコード</string>
+    <string name="hint_reference_code">リファレンスコードを入力してください</string>
+    <string name="hint_total_price">値段</string>
+    <string-array name="travel_mode_options">
+        <item>車</item>
+        <item>車両</item>
+        <item>フェリー</item>
+        <item>貨物</item>
+        <item>鉄道</item>
+    </string-array>
+
+    <!-- Weather -->
+    <string name="weather_forecast">天気予報</string>
+    <string name="seven_days">7日</string>
+    <string name="fourteen_days">14日</string>
+    <string name="details">細部</string>
+    <string name="humidity">湿度</string>
+    <string name="cloudiness">曇り</string>
+    <string name="wind_direction">風向き</string>
+    <string name="wind_speed">風速</string>
+    <string name="pressure">圧力</string>
+
+    <!-- Alert dialogs -->
+    <string name="dialog_yes">はい</string>
+    <string name="dialog_no">いいえ</string>
+    <string name="dialog_cancel">キャンセル</string>
+    <string name="dialog_close">閉じる</string>
+    <string name="dialog_delete_confirmation">この記録を破棄しますか？</string>
+    <string name="dialog_close_confirmation">保存する前に変更を破棄しますか？</string>
+    <string name="dialog_keep_editing">編集を続ける</string>
+    <string name="dialog_discard">捨てます</string>
+    <string name="progressing">処理中</string>
+    <string-array name="list_dialog_choices">
+        <item>旅を編集する</item>
+        <item>ビンをゴミ箱に移動</item>
+    </string-array>
+    <string-array name="deleted_list_dialog_choices">
+        <item>リストア</item>
+        <item>完全に削除</item>
+    </string-array>
+
+    <!-- Error messages -->
+    <string name="error_no_destination_found">目的地が入力されていません</string>
+    <string name="error_message_sql">保存の際にエラーがありました</string>
+    <string name="error_wrong_number_format">数値書式が違います。もう一度お試し下さい。</string>
+    <string name="error_wrong_start_or_end_date">間違った開始日または終了日</string>
+    <string name="error_current_trip_not_found">現在の旅行が見つかりませんでした。もう一度お試し下さい。</string>
+    <string name="error_current_hotel_record_not_found">宿泊施設記録が見つかりませんでした。もう一度お試し下さい。</string>
+    <string name="error_current_transport_record_not_found">交通機関の記録が見つかりませんでした。もう一度お試し下さい。</string>
+    <string name="error_current_attraction_record_not_found">観光スポットの記録が見つかりませんでした。もう一度お試し下さい。</string>
+    <string name="error_missing_fields">いくつかの項目が空欄です。保存する前に空欄を埋めてください。</string>
+    <string name="error_no_place_selected">保存する前に保存場所を選択してください。</string>
+    <string name="error_not_logged_in">クラウドに同期する前にログインしてください</string>
+    <string name="error_google_authentication">グーグル認証ができませんでした。もう一度お試し下さい。</string>
+    <string name="error_aws_authorisation">AWSの認証ができませんでした。もう一度お試し下さい。</string>
+    <string name="error_user_not_found">ユーザーが見つかりません</string>
+    <string name="error_no_internet_connection">インターネット接続がありません</string>
+    <string name="error_google_play_services_not_available">あなたがインストールされていることを確認してください Google Play Services.</string>
+    <string name="error_general">エラーが発生します</string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">一般的な</string>
+    <string name="pref_category_amazon">Amazon</string>
+    <string name="pref_key_language">pref_key_language</string>
+    <string name="pref_key_currency">pref_key_currency</string>
+    <string name="pref_key_amazon_upload">pref_key_amazon_upload</string>
+    <string name="pref_key_amazon_download">pref_key_amazon_download</string>
+    <string name="pref_title_language">言語</string>
+    <string name="pref_title_currency">通貨</string>
+    <string name="pref_title_upload_itinerary">サーバーへの旅程をアップロード</string>
+    <string name="pref_title_download_itinerary">サーバーから旅程をダウンロード</string>
+    <string-array name="pref_language_list_options">
+        <item>English</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Svensk</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>en</item>
+        <item>es</item>
+        <item>it</item>
+        <item>sv</item>
+        <item>zh</item>
+        <item>ja</item>
+    </string-array>
+    <string-array name="pref_currency_list_options">
+        <item>UKポンド (£)</item>
+        <item>ユーロ (€)</item>
+        <item>USドル ($)</item>
+        <item>タカ (৳)</item>
+        <item>チェコ・コルナ (Kč)</item>
+        <item>人民元 (¥)</item>
+        <item>ラリ (ლ)</item>
+        <item>インド・ルピー (₹)</item>
+        <item>新シェケル (₪)</item>
+        <item>フリヴニャ (₴)</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>BDT</item>
+        <item>CZK</item>
+        <item>CNY</item>
+        <item>GEL</item>
+        <item>INR</item>
+        <item>ILS</item>
+        <item>UAH</item>
+    </string-array>
+</resources>

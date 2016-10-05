@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Reference: https://www.google.com/design/spec/style/color.html -->
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="blue500">#2196F3</color>
+    <color name="grey300">#E0E0E0</color>
+    <color name="grey500">#9E9E9E</color>
+    <color name="red700">#D50000</color>
+    <color name="teal500">#009688</color>
+
+    <!-- Deep orange 700 -->
+    <color name="titleColour">#E64A19</color>
+</resources>

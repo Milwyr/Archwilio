@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".activities.AddTripActivity"
+        tools:showIn="@layout/activity_add_trip">
+
+        <TextView
+            android:id="@+id/add_trip_destination_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="@dimen/margin_small"
+            android:text="@string/title_destinations"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <ImageView
+            android:id="@+id/add_trip_add_destination_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:contentDescription="@string/content_description"
+            android:src="@drawable/ic_add_indigo_32dp" />
+
+        <EditText
+            android:id="@+id/add_trip_destinations_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_trip_destination_title"
+            android:layout_marginTop="@dimen/margin_small"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/ic_edit_24dp"
+            android:focusable="false"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <TextView
+            android:id="@+id/add_trip_title_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_trip_destinations_edit_text"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <EditText
+            android:id="@+id/add_trip_title_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@id/add_trip_title_title"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/add_trip_start_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_trip_title_value"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_start_date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <TextView
+            android:id="@+id/add_trip_start_date_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@id/add_trip_start_date_title"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/add_trip_end_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_trip_start_date_title"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_end_date"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <TextView
+            android:id="@+id/add_trip_end_date_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/add_trip_end_date_title"
+            android:layout_alignParentEnd="true"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/add_trip_note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_trip_end_date_title"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_note"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <EditText
+            android:id="@+id/add_trip_note_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_trip_note_title"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/add_trip_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_height"
+            android:layout_below="@id/add_trip_note_edit_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:background="@color/colorPrimary"
+            android:text="@string/title_save"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:visibility="invisible"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        tools:context="com.milton.archwilio.activities.AddAttractionActivity"
+        tools:showIn="@layout/activity_add_attraction">
+
+        <ImageView
+            android:id="@+id/add_attraction_header_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_description"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/add_attraction_header_image_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/add_attraction_header_image"
+            android:layout_alignParentLeft="true"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/grey300" />
+
+        <include
+            android:id="@+id/place_details_layout"
+            layout="@layout/place_details_table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_attraction_header_image"
+            android:layout_marginTop="@dimen/default_margin_top" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/place_details_layout"
+            android:layout_marginEnd="@dimen/activity_horizontal_margin"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/default_margin_top">
+
+            <TextView
+                android:id="@+id/start_time_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_arrival"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TableRow
+                android:id="@+id/select_time_table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/default_button_height"
+                android:layout_below="@id/start_time_title"
+                android:layout_marginTop="@dimen/margin_small">
+
+                <Button
+                    android:id="@+id/start_date_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_small"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/start_time_button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_small"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/white" />
+
+            </TableRow>
+
+            <TextView
+                android:id="@+id/duration_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/select_time_table_layout"
+                android:layout_marginTop="@dimen/default_margin_top"
+                android:text="@string/title_duration"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/duration_value_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@id/duration_title"
+                android:text="@string/default_duration_value" />
+
+            <SeekBar
+                android:id="@+id/duration_seek_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/duration_title"
+                android:layout_marginTop="@dimen/default_margin_top"
+                android:max="12"
+                android:progress="1" />
+
+            <TextView
+                android:id="@+id/note_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@id/duration_seek_bar"
+                android:layout_marginTop="@dimen/default_margin_top"
+                android:text="@string/title_note"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black" />
+
+            <EditText
+                android:id="@+id/note_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/note_title"
+                android:inputType="textMultiLine" />
+
+            <Button
+                android:id="@+id/save_button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/default_button_height"
+                android:layout_below="@id/note_edit_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/default_margin_top"
+                android:layout_marginTop="@dimen/default_margin_top"
+                android:background="@color/colorPrimary"
+                android:text="@string/title_save"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
+

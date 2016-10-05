@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Archwilio</string>
+    <string name="action_delete">Radera</string>
+
+    <!-- Activity and fragment names -->
+    <string name="title_activity_add_trip">Lägg till resa</string>
+    <string name="title_activity_add_attraction">Lägg till attraktion</string>
+    <string name="title_activity_add_hotel">Lägg till hotell</string>
+    <string name="title_activity_add_transport">Lägg till transport</string>
+    <string name="title_activity_edit_trip">Redigera resa</string>
+    <string name="title_activity_edit_attraction">Redigera attraktion</string>
+    <string name="title_activity_edit_hotel">Redigera hotell</string>
+    <string name="title_activity_edit_transport">Redigera transport</string>
+    <string name="title_activity_settings">Inställningar</string>
+    <string name="title_activity_itinerary">Resplan</string>
+    <string name="title_home_fragment">Hem</string>
+    <string name="title_deleted_trip_fragment">Raderade resor</string>
+    <string name="title_profile_fragment">Profil</string>
+    <string name="title_about">Handla om</string>
+
+    <string name="title_note">Anteckning</string>
+    <string name="title_sign_out">Logga ut</string>
+
+    <string name="content_description">Image</string>
+    <string name="default_name">Hej där</string>
+    <string name="to">till</string>
+
+    <string name="saved_successfully">Sparade</string>
+    <string name="moved_to_trash">Moved to trash</string>
+    <string name="permanently_deleted">Permanently Deleted</string>
+    <string name="restored">Restored</string>
+    <string name="uploaded_successfully">Uppladdad</string>
+    <string name="downloaded_successfully">Nedladdade</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_header_default_name">Jon Snow</string>
+    <string name="navigation_header_default_email">jon.snow@gmail.com</string>
+
+    <!-- Tutorial Activity -->
+    <string-array name="tutorial_messages">
+        <item>Hantera din resplan ansträngning</item>
+        <item>Offline resplan</item>
+        <item>Backup din resplan på nätet</item>
+    </string-array>
+    <string name="get_started">Komma igång</string>
+
+    <!-- Add Trip -->
+    <string name="title_title">Titel</string>
+    <string name="title_destinations">Destinationer</string>
+    <string name="title_start_date">Startdatum</string>
+    <string name="title_end_date">Slutdatum</string>
+    <string name="title_save">Spara</string>
+    <string name="title_trip_default_prefix">Trip to</string>
+
+    <!-- Add Attraction -->
+    <string name="title_search_attraction">Sök efter en attraktion</string>
+    <string name="title_duration">Längd</string>
+    <string name="hour">Klockslag</string>
+    <string name="default_duration_value">1 Klockslag</string>
+
+    <!-- Add Hotel -->
+    <string name="title_hotel_name">Namn på hotell</string>
+    <string name="title_address">Adress</string>
+    <string name="title_check_in">Incheckning</string>
+    <string name="title_check_out">Utcheckning</string>
+    <string name="title_number_of_guests">Gäster</string>
+    <string name="title_total_price">Slutsumma</string>
+    <string name="search_hotel_hint">Sök efter hotel</string>
+    <string name="minus">-</string>
+
+    <!-- Add Transport -->
+    <string name="title_travel_mode">Färdsätt</string>
+    <string name="title_departure">Avgång</string>
+    <string name="title_arrival">Ankomst</string>
+    <string name="hint_where_do_you_travel_from">Vart reser du ifrån</string>
+    <string name="hint_where_do_you_travel_to">Vart reser du</string>
+    <string name="title_information">Information</string>
+    <string name="title_reference_code">Referens</string>
+    <string name="hint_reference_code">Knappa in en referenskod</string>
+    <string name="hint_total_price">Knappa in pris</string>
+    <string-array name="travel_mode_options">
+        <item>Bil</item>
+        <item>Buss</item>
+        <item>Färja</item>
+        <item>Flyg</item>
+        <item>Tåg</item>
+    </string-array>
+
+    <!-- Weather -->
+    <string name="weather_forecast">Väderprognos</string>
+    <string name="seven_days">7 dagar</string>
+    <string name="fourteen_days">14 dagar</string>
+    <string name="details">Detaljer</string>
+    <string name="humidity">Fuktighet</string>
+    <string name="cloudiness">Grumlighet</string>
+    <string name="wind_direction">Vindriktning</string>
+    <string name="wind_speed">Vindhastighet</string>
+    <string name="pressure">Tryck</string>
+
+    <!-- Alert dialogs -->
+    <string name="dialog_yes">Ja</string>
+    <string name="dialog_no">Nej</string>
+    <string name="dialog_cancel">Avbryt</string>
+    <string name="dialog_close">Stäng</string>
+    <string name="dialog_delete_confirmation">Vill du radera den här registreringen?</string>
+    <string name="dialog_close_confirmation">Vill du ta bort ändringarna utan att spara?</string>
+    <string name="dialog_keep_editing">Fortsätt redigera</string>
+    <string name="dialog_discard">Ta bort</string>
+    <string name="progressing">Bearbetar</string>
+    <string-array name="list_dialog_choices">
+        <item>Redigera resa</item>
+        <item>Släng</item>
+    </string-array>
+    <string-array name="deleted_list_dialog_choices">
+        <item>Återställ</item>
+        <item>Radera permanent</item>
+    </string-array>
+
+    <!-- Error messages -->
+    <string name="error_no_destination_found">Ingen destination har lagts till</string>
+    <string name="error_message_sql">Ett fel uppstod när registreringen skulle sparas</string>
+    <string name="error_wrong_number_format">Nummerformatet är fel. Var god försök igen.</string>
+    <string name="error_wrong_start_or_end_date">Fel start- eller slutdatum</string>
+    <string name="error_current_trip_not_found">Kan inte hitta aktuell resa. Var god försök igen senare.</string>
+    <string name="error_current_hotel_record_not_found">Kan inte hitta aktuell registrering. Var god försök igen senare.</string>
+    <string name="error_current_transport_record_not_found">Kan inte hitta registrerad transport. Var god försök igen senare.</string>
+    <string name="error_current_attraction_record_not_found">Kan inte hitta registrerad attraktion. Var god försök igen senare.</string>
+    <string name="error_missing_fields">Något fält saknas</string>
+    <string name="error_no_place_selected">Var god välj ett ställe innan du sparar.</string>
+    <string name="error_not_logged_in">Please login before synchronising data to the cloud</string>
+    <string name="error_google_authentication">Authentication on Google credentials failed. Please try again later.</string>
+    <string name="error_aws_authorisation">Authorisation on AWS server failed. Please try again later.</string>
+    <string name="error_user_not_found">User not found</string>
+    <string name="error_no_internet_connection">No internet connection</string>
+    <string name="error_google_play_services_not_available">Kontrollera att du har installerat Google Play Services.</string>
+    <string name="error_general">Ett fel uppstod</string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">Allmänt</string>
+    <string name="pref_category_amazon">Amazon</string>
+    <string name="pref_key_language">pref_key_language</string>
+    <string name="pref_key_currency">pref_key_currency</string>
+    <string name="pref_key_amazon_upload">pref_key_amazon_upload</string>
+    <string name="pref_key_amazon_download">pref_key_amazon_download</string>
+    <string name="pref_title_language">Språk</string>
+    <string name="pref_title_currency">Valuta</string>
+    <string name="pref_title_upload_itinerary">Ladda upp till server</string>
+    <string name="pref_title_download_itinerary">Ladda ner från server</string>
+    <string-array name="pref_language_list_options">
+        <item>English</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Svensk</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>en</item>
+        <item>es</item>
+        <item>it</item>
+        <item>sv</item>
+        <item>zh</item>
+        <item>ja</item>
+    </string-array>
+    <string-array name="pref_currency_list_options">
+        <item>Pound Sterling (£)</item>
+        <item>Euro (€)</item>
+        <item>US Dollar ($)</item>
+        <item>Bangladeshi taka (৳)</item>
+        <item>Czech koruna (Kč)</item>
+        <item>Chinese yuan (¥)</item>
+        <item>Georgian lari (ლ)</item>
+        <item>Indian rupee (₹)</item>
+        <item>Israeli new shekel (₪)</item>
+        <item>Ukrainian hryvnia (₴)</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>BDT</item>
+        <item>CZK</item>
+        <item>CNY</item>
+        <item>GEL</item>
+        <item>INR</item>
+        <item>ILS</item>
+        <item>UAH</item>
+    </string-array>
+</resources>

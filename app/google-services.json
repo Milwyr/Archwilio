@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "535832425973",
+    "project_id": "archwilio-129523"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535832425973:android:1eceae482ed8e2bd",
+        "android_client_info": {
+          "package_name": "com.milton.archwilio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535832425973-picghdievtibso9sjn13mqc5omct3ad8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.milton.archwilio",
+            "certificate_hash": "3BB054FEC4DF7B1C2A9B196DA1833B5BA533B4BE"
+          }
+        },
+        {
+          "client_id": "535832425973-bmd3q2j6nss7hb97vtpn7hqbgqqaks2e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC30YnsTTUXE1dYq5C0TM7_FCx8qRtjtlY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

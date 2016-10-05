@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nested_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.milton.archwilio.activities.AddTransportActivity"
+    tools:showIn="@layout/activity_add_transport">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:padding="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/add_transport_travel_mode_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/title_travel_mode"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <Spinner
+            android:id="@+id/add_transport_travel_mode_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_transport_travel_mode_title" />
+
+        <TextView
+            android:id="@+id/add_transport_departure_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_transport_travel_mode_value"
+            android:text="@string/title_departure"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <EditText
+            android:id="@+id/add_transport_departure_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_transport_departure_title"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/ic_search_black_20dp"
+            android:focusable="false"
+            android:hint="@string/hint_where_do_you_travel_from" />
+
+        <LinearLayout
+            android:id="@+id/departure_time_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_height"
+            android:layout_below="@id/add_transport_departure_edit_text">
+
+            <Button
+                android:id="@+id/add_transport_departure_date_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/add_transport_departure_time_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/add_transport_arrival_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/departure_time_linear_layout"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_arrival"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <EditText
+            android:id="@+id/add_transport_arrival_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/add_transport_arrival_title"
+            android:cursorVisible="false"
+            android:drawableEnd="@drawable/ic_search_black_20dp"
+            android:focusable="false"
+            android:hint="@string/hint_where_do_you_travel_to" />
+
+        <LinearLayout
+            android:id="@+id/arrival_time_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_height"
+            android:layout_below="@id/add_transport_arrival_edit_text">
+
+            <Button
+                android:id="@+id/add_transport_arrival_date_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/add_transport_arrival_time_button"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_small"
+                android:layout_weight="1"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/information_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arrival_time_linear_layout"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_information"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <LinearLayout
+            android:id="@+id/reference_code_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/information_title">
+
+
+            <TextView
+                android:id="@+id/reference_code_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/title_reference_code"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimary" />
+
+            <EditText
+                android:id="@+id/reference_code_edit_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="@string/hint_reference_code" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/price_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/reference_code_linear_layout">
+
+            <TextView
+                android:id="@+id/price_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/title_total_price"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/currency_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="£"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/price_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="9"
+                android:hint="@string/hint_total_price"
+                android:inputType="numberDecimal" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/note_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/price_linear_layout"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:text="@string/title_note"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/titleColour" />
+
+        <EditText
+            android:id="@+id/note_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/note_title"
+            android:inputType="textMultiLine" />
+
+        <Button
+            android:id="@+id/add_transport_save_button"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/default_button_height"
+            android:layout_below="@id/note_edit_text"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/default_margin_top"
+            android:background="@color/colorPrimary"
+            android:text="@string/title_save"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>

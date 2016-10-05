@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Archwilio</string>
+    <string name="action_delete">刪除</string>
+
+    <!-- Activity and fragment names -->
+    <string name="title_activity_add_trip">添加旅程</string>
+    <string name="title_activity_add_attraction">添加旅遊景點</string>
+    <string name="title_activity_add_hotel">添加酒店</string>
+    <string name="title_activity_add_transport">添加交通</string>
+    <string name="title_activity_edit_trip">編輯旅程</string>
+    <string name="title_activity_edit_attraction">編輯旅遊景點</string>
+    <string name="title_activity_edit_hotel">編輯酒店</string>
+    <string name="title_activity_edit_transport">編輯交通</string>
+    <string name="title_activity_settings">設定</string>
+    <string name="title_activity_itinerary">行程</string>
+    <string name="title_home_fragment">主頁</string>
+    <string name="title_deleted_trip_fragment">已刪除</string>
+    <string name="title_profile_fragment">個人</string>
+    <string name="title_about">關於</string>
+
+    <string name="title_note">筆記</string>
+    <string name="title_sign_out">登出</string>
+
+    <string name="content_description">照片</string>
+    <string name="default_name">你好</string>
+    <string name="to">至</string>
+
+    <string name="saved_successfully">已儲存</string>
+    <string name="moved_to_trash">已移到垃圾桶</string>
+    <string name="permanently_deleted">已永久刪除</string>
+    <string name="restored">已復原</string>
+    <string name="uploaded_successfully">上傳成功</string>
+    <string name="downloaded_successfully">下載成功</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_header_default_name">Jon Snow</string>
+    <string name="navigation_header_default_email">jon.snow@gmail.com</string>
+
+    <!-- Tutorial Activity -->
+    <string-array name="tutorial_messages">
+        <item>幫你計劃你夢寐以求的旅行</item>
+        <item>離線讀取行程</item>
+        <item>雲端備份行程</item>
+    </string-array>
+    <string name="get_started">Get started</string>
+
+    <!-- Add Trip -->
+    <string name="title_title">標題</string>
+    <string name="title_destinations">目的地</string>
+    <string name="title_start_date">出發日期</string>
+    <string name="title_end_date">完結日期</string>
+    <string name="title_save">儲存</string>
+    <string name="title_trip_default_prefix">Trip to</string>
+
+    <!-- Add Attraction -->
+    <string name="title_search_attraction">搜尋景點</string>
+    <string name="title_duration">歷時</string>
+    <string name="hour">小時</string>
+    <string name="default_duration_value">1小時</string>
+
+    <!-- Add Hotel -->
+    <string name="title_hotel_name">酒店名稱</string>
+    <string name="title_address">地址</string>
+    <string name="title_check_in">開房</string>
+    <string name="title_check_out">退房</string>
+    <string name="title_number_of_guests">旅客人數</string>
+    <string name="title_total_price">總開支</string>
+    <string name="search_hotel_hint">搜尋酒店</string>
+    <string name="minus">-</string>
+
+    <!-- Add Transport -->
+    <string name="title_travel_mode">交通工具</string>
+    <string name="title_departure">出發地</string>
+    <string name="title_arrival">目的地</string>
+    <string name="hint_where_do_you_travel_from">你在哪裏出發</string>
+    <string name="hint_where_do_you_travel_to">你想去哪裏</string>
+    <string name="title_information">資訊</string>
+    <string name="title_reference_code">參考號碼</string>
+    <string name="hint_reference_code">輸入參考號碼</string>
+    <string name="hint_total_price">輸入總開支</string>
+    <string-array name="travel_mode_options">
+        <item>私家車</item>
+        <item>長途巴士</item>
+        <item>渡輪</item>
+        <item>飛機</item>
+        <item>火車</item>
+    </string-array>
+
+    <!-- Weather -->
+    <string name="weather_forecast">天氣預報</string>
+    <string name="seven_days">7日</string>
+    <string name="fourteen_days">14日</string>
+    <string name="details">詳細信息</string>
+    <string name="humidity">相對濕度</string>
+    <string name="cloudiness">雲量</string>
+    <string name="wind_direction">風向</string>
+    <string name="wind_speed">風速</string>
+    <string name="pressure">壓强</string>
+
+    <!-- Alert dialogs -->
+    <string name="dialog_yes">是</string>
+    <string name="dialog_no">否</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_close">關閉</string>
+    <string name="dialog_delete_confirmation">你真的想狠心刪除我嗎？</string>
+    <string name="dialog_close_confirmation">變更還未儲存，你想不儲存就離開嗎？</string>
+    <string name="dialog_keep_editing">繼續編輯</string>
+    <string name="dialog_discard">果斷離開</string>
+    <string name="progressing">處理中，請稍候</string>
+    <string-array name="list_dialog_choices">
+        <item>編輯旅程</item>
+        <item>移去垃圾桶</item>
+    </string-array>
+    <string-array name="deleted_list_dialog_choices">
+        <item>復原旅程</item>
+        <item>永久刪除</item>
+    </string-array>
+
+    <!-- Error messages -->
+    <string name="error_no_destination_found">請選擇最少一個目的地</string>
+    <string name="error_message_sql">抱歉，儲存的時候出現錯誤</string>
+    <string name="error_wrong_number_format">Number format is wrong. Please try again.</string>
+    <string name="error_wrong_start_or_end_date">開始或者結束日期出錯</string>
+    <string name="error_current_trip_not_found">找不到現在的旅程，請稍候再試</string>
+    <string name="error_current_hotel_record_not_found">找不到酒店記錄，請稍候再試</string>
+    <string name="error_current_transport_record_not_found">找不到交通記錄，請稍候再試</string>
+    <string name="error_current_attraction_record_not_found">找不到景點記錄，請稍候再試</string>
+    <string name="error_missing_fields">儲存前請先填寫必填的資料</string>
+    <string name="error_no_place_selected">儲存前請先選擇最少一個目的地</string>
+    <string name="error_not_logged_in">雲端備份前請先登入</string>
+    <string name="error_google_authentication">Authentication on Google credentials failed. Please try again later.</string>
+    <string name="error_aws_authorisation">Authorisation on AWS server failed. Please try again later.</string>
+    <string name="error_user_not_found">找不到用戶</string>
+    <string name="error_no_internet_connection">沒有網絡</string>
+    <string name="error_google_play_services_not_available">請確保手機已經安裝Google Play Services</string>
+    <string name="error_general">程式出現錯誤</string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">一般</string>
+    <string name="pref_category_amazon">Amazon</string>
+    <string name="pref_key_language">pref_key_language</string>
+    <string name="pref_key_currency">pref_key_currency</string>
+    <string name="pref_key_amazon_upload">pref_key_amazon_upload</string>
+    <string name="pref_key_amazon_download">pref_key_amazon_download</string>
+    <string name="pref_title_language">語言</string>
+    <string name="pref_title_currency">貨幣</string>
+    <string name="pref_title_upload_itinerary">上載旅程到雲端伺服器</string>
+    <string name="pref_title_download_itinerary">從雲端伺服器下載旅程</string>
+    <string-array name="pref_language_list_options">
+        <item>English</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Svensk</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>en</item>
+        <item>es</item>
+        <item>it</item>
+        <item>sv</item>
+        <item>zh</item>
+        <item>ja</item>
+    </string-array>
+    <string-array name="pref_currency_list_options">
+        <item>英鎊 (£)</item>
+        <item>歐元 (€)</item>
+        <item>美元 ($)</item>
+        <item>孟加拉塔卡 (৳)</item>
+        <item>捷克克朗 (Kč)</item>
+        <item>人仔 (¥)</item>
+        <item>格魯吉亞拉里 (ლ)</item>
+        <item>印度盧比 (₹)</item>
+        <item>以色列新謝克爾 (₪)</item>
+        <item>烏克蘭格里夫納 (₴)</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>BDT</item>
+        <item>CZK</item>
+        <item>CNY</item>
+        <item>GEL</item>
+        <item>INR</item>
+        <item>ILS</item>
+        <item>UAH</item>
+    </string-array>
+</resources>

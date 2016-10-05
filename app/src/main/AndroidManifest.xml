@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.milton.archwilio">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBXV6EhevIV4YQluNSgy5NxqhRU8ss9-9A" />
+
+        <activity
+            android:name=".activities.TutorialActivity"
+            android:theme="@style/AppTheme.Transparent.ActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddHotelActivity"
+            android:label="@string/title_activity_add_hotel"
+            android:parentActivityName=".activities.ItineraryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditHotelActivity"
+            android:label="@string/title_activity_edit_hotel"
+            android:parentActivityName=".activities.ItineraryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.AddTripActivity"
+            android:label="@string/title_activity_add_trip"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditTripActivity"
+            android:label="@string/title_activity_edit_trip"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ItineraryActivity"
+            android:label="@string/title_activity_itinerary"
+            android:parentActivityName=".activities.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddAttractionActivity"
+            android:label="@string/title_activity_add_attraction"
+            android:parentActivityName=".activities.ItineraryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditAttractionActivity"
+            android:label="@string/title_activity_edit_attraction"
+            android:parentActivityName=".activities.AddAttractionActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddTransportActivity"
+            android:label="@string/title_activity_add_transport"
+            android:parentActivityName=".activities.ItineraryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditTransportActivity"
+            android:label="@string/title_activity_edit_transport"
+            android:parentActivityName=".activities.AddTransportActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.WeatherActivity"
+            android:parentActivityName=".activities.ItineraryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

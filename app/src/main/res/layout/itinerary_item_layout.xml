@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itinerary_relative_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_small">
+
+    <ImageView
+        android:id="@+id/itinerary_item_icon"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/content_description" />
+
+    <TextView
+        android:id="@+id/itinerary_item_time_text"
+        android:layout_width="95dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_toEndOf="@id/itinerary_item_icon"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itinerary_item_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/itinerary_item_time_text"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_toEndOf="@id/itinerary_item_time_text"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/itinerary_item_address_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itinerary_item_title_text"
+        android:layout_marginStart="@dimen/margin_small"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/itinerary_item_icon"
+        android:text="Small Text"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Archwilio</string>
+    <string name="action_delete">Borrar</string>
+
+    <!-- Activity and fragment names -->
+    <string name="title_activity_add_trip">Agregar Viaje</string>
+    <string name="title_activity_add_attraction">Agregar Atracción</string>
+    <string name="title_activity_add_hotel">Agregar Hotel</string>
+    <string name="title_activity_add_transport">Agregar Transporte</string>
+    <string name="title_activity_edit_trip">Editar Viaje</string>
+    <string name="title_activity_edit_attraction">Editar Atracción</string>
+    <string name="title_activity_edit_hotel">Editar Hotel</string>
+    <string name="title_activity_edit_transport">Editar Transporte</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="title_activity_itinerary">Itinerario</string>
+    <string name="title_home_fragment">Inicio</string>
+    <string name="title_deleted_trip_fragment">Borrar Viajes</string>
+    <string name="title_profile_fragment">Perfil</string>
+    <string name="title_about">Acerca de</string>
+
+    <string name="title_note">Nota</string>
+    <string name="title_sign_out">Cerrar Sesion</string>
+
+    <string name="content_description">Image</string>
+    <string name="default_name">Hola</string>
+    <string name="to">a</string>
+
+    <string name="saved_successfully">Salvado</string>
+    <string name="moved_to_trash">Movido a la papelera</string>
+    <string name="permanently_deleted">Suprimido Definitivamente</string>
+    <string name="restored">Restaurada</string>
+    <string name="uploaded_successfully">Sabido</string>
+    <string name="downloaded_successfully">Descargado</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_header_default_name">Jon Snow</string>
+    <string name="navigation_header_default_email">jon.snow@gmail.com</string>
+
+    <!-- Tutorial Activity -->
+    <string-array name="tutorial_messages">
+        <item>Administrar su itinerario sin esfuerzo</item>
+        <item>Itinerario Desconectado</item>
+        <item>Copia de seguridad de su itinerario en línea</item>
+    </string-array>
+    <string name="get_started">Comience</string>
+
+    <!-- Add Trip -->
+    <string name="title_title">Titulo</string>
+    <string name="title_destinations">Destinos</string>
+    <string name="title_start_date">Fecha de inicio</string>
+    <string name="title_end_date">Fecha de</string>
+    <string name="title_save">Guardar</string>
+    <string name="title_trip_default_prefix">Trip to</string>
+
+    <!-- Add Attraction -->
+    <string name="title_search_attraction">Buscar Atracción</string>
+    <string name="title_duration">Duración</string>
+    <string name="hour">hora</string>
+    <string name="default_duration_value">1 hora</string>
+
+    <!-- Add Hotel -->
+    <string name="title_hotel_name">Nombre del Hotel</string>
+    <string name="title_address">Dirección</string>
+    <string name="title_check_in">Registrarse</string>
+    <string name="title_check_out">Check out</string>
+    <string name="title_number_of_guests">Huespedes</string>
+    <string name="title_total_price">Precio Total</string>
+    <string name="search_hotel_hint">Buscar Hotel</string>
+    <string name="minus">-</string>
+
+    <!-- Add Transport -->
+    <string name="title_travel_mode">Medio de Transporte</string>
+    <string name="title_departure">Salida</string>
+    <string name="title_arrival">Llegada</string>
+    <string name="hint_where_do_you_travel_from">Desde donde viajas</string>
+    <string name="hint_where_do_you_travel_to">Hacia donde viajas</string>
+    <string name="title_information">Información</string>
+    <string name="title_reference_code">Referencia</string>
+    <string name="hint_reference_code">Ingresa un código de referencia</string>
+    <string name="hint_total_price">Ingresa Precio</string>
+    <string-array name="travel_mode_options">
+        <item>Auto</item>
+        <item>Autobus</item>
+        <item>Ferry</item>
+        <item>Vuelo</item>
+        <item>Tren</item>
+    </string-array>
+
+    <!-- Weather -->
+    <string name="weather_forecast">Pronóstico del tiempo</string>
+    <string name="seven_days">7 días</string>
+    <string name="fourteen_days">14 días</string>
+    <string name="details">Detalles</string>
+    <string name="humidity">Humedad</string>
+    <string name="cloudiness">Abundancia de nubes</string>
+    <string name="wind_direction">Dirección del viento</string>
+    <string name="wind_speed">Velocidad del viento</string>
+    <string name="pressure">Presión</string>
+
+    <!-- Alert dialogs -->
+    <string name="dialog_yes">Sí</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_close">Cerrar</string>
+    <string name="dialog_delete_confirmation">¿Desea borrar este registro?</string>
+    <string name="dialog_close_confirmation">¿Desea descartar los cambios realizados sin guardar?</string>
+    <string name="dialog_keep_editing">Seguir editando</string>
+    <string name="dialog_discard">Descartar</string>
+    <string name="progressing">Procesando</string>
+    <string-array name="list_dialog_choices">
+        <item>Editar viaje</item>
+        <item>Tirar a la papelera</item>
+    </string-array>
+    <string-array name="deleted_list_dialog_choices">
+        <item>Restaurar</item>
+        <item>Borrar permanente</item>
+    </string-array>
+
+    <!-- Error messages -->
+    <string name="error_no_destination_found">No se han agregado destintos</string>
+    <string name="error_message_sql">Ha habido un error guardando los datos</string>
+    <string name="error_wrong_number_format">El formato del número es incorrecto. Por favor, vuelva a intentarlo más tarde.</string>
+    <string name="error_wrong_start_or_end_date">Inicio incorrecto o fecha de finalización</string>
+    <string name="error_current_trip_not_found">No se ha podido encontrar el viaje. Por Favor, vuelva a intentarlo más tarde.</string>
+    <string name="error_current_hotel_record_not_found">No se ha podido encontrar el hotel guardado. Por favor, vuelva a intentarlo más tarde.</string>
+    <string name="error_current_transport_record_not_found">No se ha podido encontrar el transporte guardado. Por favor, vuela a intentarlo más tarde.</string>
+    <string name="error_current_attraction_record_not_found">No se ha podido encontrar la atracción guardada. Por favor, vuelva a intentarlo más tarde.</string>
+    <string name="error_missing_fields">Algunas casillas están vacias</string>
+    <string name="error_no_place_selected">Por favor, seleccione un lugar antes de guardar.</string>
+    <string name="error_not_logged_in">Por favor, registrarse antes de sincronizar los datos en la nube</string>
+    <string name="error_google_authentication">La autenticación en Google falló. Por favor, vuelva a intentarlo más tarde.</string>
+    <string name="error_aws_authorisation">La autenticación en el servidor de AWS falló. Por favor, vuelva a intentarlo más tarde.</string>
+    <string name="error_user_not_found">Usuario no encontrado</string>
+    <string name="error_no_internet_connection">Sin conexión a internet</string>
+    <string name="error_google_play_services_not_available">Por favor, compruebe que ha instalado Google Play Services.</string>
+    <string name="error_general">Ha ocurrido un error</string>
+
+    <!-- Settings -->
+    <string name="pref_category_general">General</string>
+    <string name="pref_category_amazon">Amazon</string>
+    <string name="pref_key_language">pref_key_language</string>
+    <string name="pref_key_currency">pref_key_currency</string>
+    <string name="pref_key_amazon_upload">pref_key_amazon_upload</string>
+    <string name="pref_key_amazon_download">pref_key_amazon_download</string>
+    <string name="pref_title_language">Lenguaje</string>
+    <string name="pref_title_currency">Moneda</string>
+    <string name="pref_title_upload_itinerary">Subir itinerario a servidor</string>
+    <string name="pref_title_download_itinerary">Descargar itinerario de servidor</string>
+    <string-array name="pref_language_list_options">
+        <item>English</item>
+        <item>Español</item>
+        <item>Italiano</item>
+        <item>Svensk</item>
+        <item>中文</item>
+        <item>日本語</item>
+    </string-array>
+    <string-array name="pref_language_list_values">
+        <item>en</item>
+        <item>es</item>
+        <item>it</item>
+        <item>sv</item>
+        <item>zh</item>
+        <item>ja</item>
+    </string-array>
+    <string-array name="pref_currency_list_options">
+        <item>Libra Esterlina (£)</item>
+        <item>Euro (€)</item>
+        <item>Dolar Americano ($)</item>
+        <item>Taka Bangladesí (৳)</item>
+        <item>Coronoca Checa (Kč)</item>
+        <item>Yen Chino (¥)</item>
+        <item>Lari Georgiano (ლ)</item>
+        <item>Rupia India (₹)</item>
+        <item>Nuevo Séquel (₪)</item>
+        <item>Grivna (₴)</item>
+    </string-array>
+    <string-array name="pref_currency_list_values">
+        <item>GBP</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>BDT</item>
+        <item>CZK</item>
+        <item>CNY</item>
+        <item>GEL</item>
+        <item>INR</item>
+        <item>ILS</item>
+        <item>UAH</item>
+    </string-array>
+</resources>
